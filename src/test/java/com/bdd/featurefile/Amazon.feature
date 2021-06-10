@@ -6,6 +6,7 @@ Given User launches the browser and open demosite URL "https://www.amazon.in/"
 When I enter Username and Password 
 And I click sigin button
 And I verify HomePage is displayed
+Then I verify the page title
 
 
 @Regression @Smoke
